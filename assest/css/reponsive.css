@@ -100,7 +100,7 @@
     }
     .container__booking--main-detail-btn{
         width: 100%;
-        padding: 15px 43%;
+        text-align: center;
     }
     .container__booking--main-wrapper{
         width: inherit;
@@ -321,7 +321,7 @@
     }
     .container__booking--main-detail-btn{
         width: 100%;
-        padding: 15px 34%;
+        text-align: center;
     }
     .container__booking--main-wrapper{
         width: inherit;
