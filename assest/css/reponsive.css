@@ -452,5 +452,6 @@
     .footer__container-content-last-1,.footer__container-content-last-2{
         width: unset;
         justify-content: center;
+        display: flex;
     }
 }
