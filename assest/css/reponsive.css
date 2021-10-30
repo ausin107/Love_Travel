@@ -456,6 +456,10 @@
         display: flex;
         width: unset;
         justify-content: center;
+<<<<<<< HEAD
+=======
+        display: flex;
+>>>>>>> fb1364ce3310b7a2c0535d335be79fb54c77fa46
         text-align: center;
     }
 }
