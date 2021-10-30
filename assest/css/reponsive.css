@@ -88,32 +88,33 @@
         width: 180px;
     }
     .container__booking{
-        height: 1535px;
+        height: 100%;
         width: 100vw;
     }
     .container__booking--main{
         flex-direction: column;
-        height: 988px;
+        height: 100%;
     }
     .container__booking--main-detail-title::after{
-        right: 394px;
+        left: 165px;    
     }
     .container__booking--main-detail-btn{
         width: 100%;
-        padding: 15px 43%;
+        text-align: center;
     }
     .container__booking--main-wrapper{
         width: inherit;
         padding: 20px;
         height: 539px;
+        display: flex;
+        justify-content: center;
     }
     .container__booking--main-wrapper-img{
         width: 100%;
     }
     .container__booking--main-wrapper-count-down{
-        width: 728px;
-        bottom: -10px;
-        right: 20px;
+        right: unset;
+        bottom: 50px;
     }
     .container__booking--service{
         flex-direction: column;
@@ -172,7 +173,6 @@
     }
     .footer__container{
         height: 1036px;
-        width: 708px;
         margin: 0 30px;
     }
     .footer__container-main{
@@ -289,6 +289,8 @@
         margin-top: 40px;
         margin-left: 0;
         align-self: center;
+        padding: 15px 0;
+        text-align: center;
     }
     .container__all-packages-title-second::after{
         width: 180px;
@@ -301,7 +303,7 @@
     }
     .container__booking--main{
         flex-direction: column;
-        height: 988px;
+        height: 100%;
     }
     .container__booking--main-detail{
         height: 628px;
@@ -309,6 +311,7 @@
     }
     .container__booking--main-detail-title{
         height: 72px;
+        width: 368px;
     }
     .container__booking--main-detail-paragraph{
         height: 130px;
@@ -316,17 +319,19 @@
         width: 250px;
     }
     .container__booking--main-detail-title::after{
-        right: 135px;
-        bottom: 7px;
+        left: 165px;
+        bottom: 40px;
     }
     .container__booking--main-detail-btn{
         width: 100%;
-        padding: 15px 34%;
+        text-align: center;
     }
     .container__booking--main-wrapper{
         width: inherit;
         padding: 20px;
         height: 539px;
+        display: flex;
+        justify-content: center;
     }
     .container__booking--main-wrapper-img{
         width: 100%;
@@ -334,10 +339,8 @@
         background-position-y: -25px;
     }
     .container__booking--main-wrapper-count-down{
-        width: 374px;
-        height: 110px;
-        bottom: 5px;
-        right: 20px;
+        right: unset;
+        bottom: -10px;
     }
     .container__booking--service{
         flex-direction: column;
@@ -450,7 +453,9 @@
         height: unset;
     }
     .footer__container-content-last-1,.footer__container-content-last-2{
+        display: flex;
         width: unset;
         justify-content: center;
+        text-align: center;
     }
 }
