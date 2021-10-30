@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assest/css/base.css">
+    <link rel="stylesheet" href="./assest/css/main.css">
+    <link rel="stylesheet" href="./assest/css/reponsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assest/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Love Travel</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__mask"></div>
+        <div class="header__nav">
+            <a href="" class="header__nav--logo">
+                <img src="./assest/img/header__logo.png" alt="Logo Page">
+            </a>
+            <ul class="header__nav--btn">
+                <li class="header__nav--btn-normal">
+                    <a href="" style="text-decoration: none; color: #fff;">HOME</a>
+                </li>
+                <li class="header__nav--btn-normal">
+                    PACKAGES
+                    <!-- Navbar -->
+                    <ul class="header__nav--btn-navbar">
+                        <li style="display:flex">
+                            Search 1
+                            <div class="header__nav--btn-navbar-infor-first">Hot</div>
+                        </li>
+                        <li>Search 2</li>
+                        <li>Tour Package</li>
+                        <li>Destination</li>
+                        <li>Typology</li>
+                    </ul>
+                </li>
+                <li class="header__nav--btn-normal">
+                    SHOP
+                    <!-- Navbar -->
+                    <ul class="header__nav--btn-navbar">
+                        <li>Archive</li>
+                        <li>Single Product</li>
+                        <li>Cart</li>
+                        <li>Checkout</li>
+                    </ul>
+                </li>
+                <li class="header__nav--btn-normal">
+                    ABOUT US
+                    <!-- Navbar -->
+                    <ul class="header__nav--btn-navbar">
+                        <li style="display:flex">
+                            About Us
+                            <div class="header__nav--btn-navbar-infor-second">New</div>
+                        </li>
+                        <li>About Us 2</li>
+                        <li>About Us 3</li>
+                    </ul>
+                </li>
+                <li class="header__nav--btn-normal">
+                    PAGES
+                    <!-- Navbar -->
+                    <ul class="header__nav--btn-navbar">
+                        <li>Services</li>
+                        <li>Agency Tours</li>
+                        <li>Testimonials</li>
+                        <li>Prices</li>
+                        <li>Promotions</li>
+                        <li>Faq</li>
+                        <li>Coming Soon</li>
+                        <li>About Us</li>
+                        <li>Contact</li>
+                    </ul>
+                </li>
+                <li class="header__nav--btn-normal">
+                    NEWS
+                     <!-- Navbar -->
+                     <ul class="header__nav--btn-navbar">
+                        <li>Archive</li>
+                        <li>Single Post</li>
+                    </ul>
+                </li>
+                <li class="header__nav--btn-normal">
+                    CONTACT
+                     <!-- Navbar -->
+                     <ul class="header__nav--btn-navbar">
+                        <li>Contact 1</li>
+                        <li>Contact 2</li>
+                    </ul>
+                </li>
+                <li class="header__nav--btn-book-ticket">
+                    <div class="header__nav--btn-book-ticket-text">
+                    BOOK NOW  
+                    </div>
+                </li>
+            </ul>
+            <div class="header__nav--menu">
+                <i class="fas fa-bars js-open header__nav-menu-pc" style="opacity: .5;"></i>
+                <i class="fas fa-bars js-open-mobile header__nav-menu-mobile" style="opacity: .5;"></i>
+                <!-- Menu sidebar Laptop -->
+                <div class="header__nav--menu-navbar js-sidebar-container">
+                    <div class="header__nav--menu-navbar-container" style="background-color:white;height: 1355px;color: black;">
+                        <div class="header__nav--menu-navbar-offer">
+                            <div style="font-size: 13px;letter-spacing: 2px;color: #9a9a9a; height: 26px;line-height: 26px;">BEST</div>
+                            <div class="navbar__offer-header"><div style="z-index: 1;position: inherit;opacity: .7;">PACKAGES</div></div>
+                            <div class="navbar__offer-items">
+                                <img src="./assest/img/navbar__img-1.jpg" alt="Place" class="navbar__offer-img">
+                                <div class="navbar__offer-wrapper">   
+                                    <div class="navbar__offer-place">Berlin</div>
+                                    <div class="navbar__offer-area"><i class="fas fa-map-marker-alt navbar__offer-icon"></i>Europe</div>
+                                    <div class="navbar__offer-price">FROM 700$</div>
+                                </div>
+                            </div>
+                            <div class="navbar__offer-items">
+                                <img src="./assest/img/navbar__img-2.jpg" alt="Place" class="navbar__offer-img">
+                                <div class="navbar__offer-wrapper">   
+                                    <div class="navbar__offer-place">Hong Kong</div>
+                                    <div class="navbar__offer-area"><i class="fas fa-map-marker-alt navbar__offer-icon"></i>Asia</div>
+                                    <div class="navbar__offer-price" style="background: linear-gradient(to right, #f76570 0%, #f78d65 100%);">FROM 500$</div>
+                                </div>
+                            </div>
+                            <div class="navbar__offer-items">
+                                <img src="./assest/img/navbar__img-3.jpg" alt="Place" class="navbar__offer-img">
+                                <div class="navbar__offer-wrapper">   
+                                    <div class="navbar__offer-place">Viet Nam</div>
+                                    <div class="navbar__offer-area"><i class="fas fa-map-marker-alt navbar__offer-icon"></i>Asia</div>
+                                    <div class="navbar__offer-price" style="background:linear-gradient(to right, #ba71da 0%, #da717b 100%) ;">FROM 400$</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__nav--menu--navbar-destination">
+                            <div class="navbar__destination-mask"></div>
+                            <div class="navbar__destination-icon">
+                                <img src="./assest/img/content_img_1.png" alt="Icon" style="width:35px">
+                            </div>
+                            <div class="navbar__destination-container">
+                                <div class="navbar__destination-title">Europe</div>
+                                <div class="navar__destination-sub-title">3 PACKAGES</div>
+                            </div>
+                            <!-- Hover sidebar -->
+                            <div class="header__nav--menu--navbar-destination-hover">
+                                <div class="header__nav--menu--navbar-destination-hover-box">
+                                    <div class="header__nav--menu--navbar-destination-hover-title">Packages</div>
+                                    <div class="header__nav--menu--navbar-destination-hover-sub-title">Berlin</div>
+                                    <div class="header__nav--menu--navbar-destination-hover-sub-title">Amsterdam</div>
+                                    <div class="header__nav--menu--navbar-destination-hover-sub-title">Tuscany</div>
+                                    <div class="header__nav--menu--navbar-destination-hover-btn">VIEW DESTINATION</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__nav--menu-navbar-offer">
+                            <div style="font-size: 13px;letter-spacing: 2px;color: #9a9a9a; height: 26px;line-height: 26px;">LAST</div>
+                            <div class="navbar__offer-header"><div style="z-index: 1;position: inherit;opacity: .7;">MINUTES</div></div>
+                            <div class="navbar__offer-items">
+                                <img src="./assest/img/navbar__img-4.jpg" alt="Place" class="navbar__offer-img">
+                                <div class="navbar__offer-wrapper">   
+                                    <div class="navbar__offer-place">Tuscany</div>
+                                    <div class="navbar__offer-area"><i class="fas fa-map-marker-alt navbar__offer-icon"></i>Italy</div>
+                                    <div class="navbar__offer-price">FROM 730$</div>
+                                </div>
+                            </div>
+                            <div class="navbar__offer-items">
+                                <img src="./assest/img/navbar__img-5.jpg" alt="Place" class="navbar__offer-img">
+                                <div class="navbar__offer-wrapper">   
+                                    <div class="navbar__offer-place">Amsterdam</div>
+                                    <div class="navbar__offer-area"><i class="fas fa-map-marker-alt navbar__offer-icon"></i>Netherlands</div>
+                                    <div class="navbar__offer-price" style="background: linear-gradient(to right, #f76570 0%, #f78d65 100%);">FROM 900$</div>
+                                </div>
+                            </div>
+                            <div class="navbar__offer-items">
+                                <img src="./assest/img/navbar__img-6.jpg" alt="Place" class="navbar__offer-img">
+                                <div class="navbar__offer-wrapper">   
+                                    <div class="navbar__offer-place">Phuket</div>
+                                    <div class="navbar__offer-area"><i class="fas fa-map-marker-alt navbar__offer-icon"></i>Thailandia</div>
+                                    <div class="navbar__offer-price" style="background:linear-gradient(to right, #ba71da 0%, #da717b 100%) ;">FROM 800$</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__nav--menu--navbar-close js-close">
+                            <i class="far fa-times-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu sidebar Ipad/Mobile -->
+                <div class="header__sidebar-mobile js-sidebar-container-mobile">
+                    <div class="header__sidebar-mobile-container" style="background-color:rgb(85, 85, 85);height: 1355px;">
+                        <div class="header__sidebar-mobile-container-wrapper">
+                            <a href="" class="header__sidebar-mobile-container-wrapper-title">HOME</a>
+                        </div>
+                        <div class="header__sidebar-mobile-container-wrapper">
+                            <a href="" class="header__sidebar-mobile-container-wrapper-title">PAKEGES</a>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Search 1</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Search 2</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Tour Package</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Destination</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Typology</div>
+                        </div>
+                        <div class="header__sidebar-mobile-container-wrapper">
+                            <a href="" class="header__sidebar-mobile-container-wrapper-title">SHOP</a>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Archive</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Single Product</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Cart</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Checkout</div>
+                        </div>
+                        <div class="header__sidebar-mobile-container-wrapper">
+                            <a href="" class="header__sidebar-mobile-container-wrapper-title">ABOUT US</a>
+                            <div class="header__sidebar-mobile-container-wrapper-item">About Us</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">About Us 2</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">About Us 3</div>
+                        </div>
+                        <div class="header__sidebar-mobile-container-wrapper">
+                            <a href="" class="header__sidebar-mobile-container-wrapper-title">PAGES</a>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Services</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Agency Tours</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Testimonials</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Prices</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Promotions</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Coming Soon</div>
+                        </div>
+                        <div class="header__sidebar-mobile-container-wrapper">
+                            <a href="" class="header__sidebar-mobile-container-wrapper-title">NEWS</a>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Archive</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Single Post</div>
+                        </div>
+                        <div class="header__sidebar-mobile-container-wrapper">
+                            <a href="" class="header__sidebar-mobile-container-wrapper-title">CONTACT</a>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Contact 1</div>
+                            <div class="header__sidebar-mobile-container-wrapper-item">Contact 2</div>
+                        </div>
+                        <div class="header__sidebar-mobile-container-wrapper">
+                            <a href="" class="header__sidebar-mobile-container-wrapper-title">BOOK NOW</a>
+                        </div>
+                    </div>
+                    <div class="header__sidebar-mobile-close js-close-mobile">
+                        <i class="far fa-times-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_main">
+            <h1 class="header_main-title">Search your next
+                <label for="" class="header_main-title-underline">Holiday</label>
+            </h1>
+            <h6 class="header_main-sub-title">CHECK OUR BEST PROMOTIONS</h6>
+            <div class="header_main-selector">
+                <div class="header_main-filed">
+                    <div class="header_main-filed-place-holder">Choose your Destination ...</div>
+                    <i class="fas fa-search header_main-filder-icon"></i>
+                </div>
+            </div>
+            <div class="header_main-icon">
+                <div class="header_main-icon-wrapper">
+                    <img src="./assest/img/header_img-1.png" alt="Image" class="header_main-icon-wrapper-item">
+                    <div class="header_main-icon-wrapper-text">RELAX</div>
+                </div>
+                <div class="header_main-icon-wrapper">
+                    <img src="./assest/img/header_img-2.png" alt="Image" class="header_main-icon-wrapper-item">
+                    <div class="header_main-icon-wrapper-text">CULTURAL</div>
+                </div>
+                <div class="header_main-icon-wrapper">
+                    <img src="./assest/img/header_img-3.png" alt="Image" class="header_main-icon-wrapper-item">
+                    <div class="header_main-icon-wrapper-text">SPORT</div>
+                </div>
+                <div class="header_main-icon-wrapper">
+                    <img src="./assest/img/header_img-4.png" alt="Image" class="header_main-icon-wrapper-item">
+                    <div class="header_main-icon-wrapper-text">HISTORY</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="container__destination">
+                <div class="container__destination--sub-title">OUR PROPOSALS</div>
+                <div class="container__destination--title"><div style="position: inherit;z-index: 0;">OUR DESTINATIONS</div></div>
+                <div class="container__destination--place">
+                    <div class="grid__col">
+                        <div class="container__destination--place-item">
+                            <div class="container__destination--place-mask"></div>
+                            <div class="container__destination--place-icon">
+                                <img src="./assest/img/content_img_1.png" alt="Icon" style="width:35px">
+                            </div>
+                            <div class="container__destination--place-header">
+                                <div class="container__destination--place-header-sub-title">Europe</div>
+                                <div class="container__destination--place-header-title">3 PACKAGES</div>
+                            </div>
+                            <!-- Hover -->
+                            <div class="container__destination--place-hover">
+                                <div class="container__destination--place-hover-box">
+                                    <div class="container__destination--place-hover-title">Packages</div>
+                                    <div class="container__destination--place-hover-sub-title">Berlin</div>
+                                    <div class="container__destination--place-hover-sub-title">Amsterdam</div>
+                                    <div class="container__destination--place-hover-sub-title">Tuscany</div>
+                                    <div class="container__destination--place-hover-btn">VIEW DESTINATION</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__destination--place-item background-img-2">
+                            <div class="container__destination--place-mask"></div>
+                            <div class="container__destination--place-icon">
+                                <img src="./assest/img/content_img_2.png" alt="Icon" style="width:35px">
+                            </div>
+                            <div class="container__destination--place-header">
+                                <div class="container__destination--place-header-sub-title">Thailandia</div>
+                                <div class="container__destination--place-header-title">1 PACKAGES</div>
+                            </div>
+                            <!-- Hover -->
+                            <div class="container__destination--place-hover">
+                                <div class="container__destination--place-hover-box">
+                                    <div class="container__destination--place-hover-title">Packages</div>
+                                    <div class="container__destination--place-hover-sub-title">Phuket</div>
+                                    <div class="container__destination--place-hover-btn">VIEW DESTINATION</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__destination--place-item background-img-3">
+                            <div class="container__destination--place-mask"></div>
+                            <div class="container__destination--place-icon">
+                                <img src="./assest/img/content_img_3.png" alt="Icon" style="width:35px">
+                            </div>
+                            <div class="container__destination--place-header">
+                                <div class="container__destination--place-header-sub-title">Japan</div>
+                                <div class="container__destination--place-header-title">2 PACKAGES</div>
+                            </div>
+                            <!-- Hover -->
+                            <div class="container__destination--place-hover">
+                                <div class="container__destination--place-hover-box">
+                                    <div class="container__destination--place-hover-title">Packages</div>
+                                    <div class="container__destination--place-hover-sub-title">Hong Kong</div>
+                                    <div class="container__destination--place-hover-sub-title">PhuKet</div>
+                                    <div class="container__destination--place-hover-btn">VIEW DESTINATION</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__destination--place">
+                    <div class="grid__col">
+                        <div class="container__destination--place-item background-img-4">
+                            <div class="container__destination--place-mask"></div>
+                            <div class="container__destination--place-icon">
+                                <img src="./assest/img/content_img_4.png" alt="Icon" style="width:35px">
+                            </div>
+                            <div class="container__destination--place-header">
+                                <div class="container__destination--place-header-sub-title">Italy</div>
+                                <div class="container__destination--place-header-title">1 PACKAGES</div>
+                            </div>
+                            <!-- Hover -->
+                            <div class="container__destination--place-hover">
+                                <div class="container__destination--place-hover-box">
+                                    <div class="container__destination--place-hover-title">Packages</div>
+                                    <div class="container__destination--place-hover-sub-title">Tuscany</div>
+                                    <div class="container__destination--place-hover-btn">VIEW DESTINATION</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__destination--place-item background-img-5">
+                            <div class="container__destination--place-mask"></div>
+                            <div class="container__destination--place-icon">
+                                <img src="./assest/img/content_img_5.png" alt="Icon" style="width:35px">
+                            </div>
+                            <div class="container__destination--place-header">
+                                <div class="container__destination--place-header-sub-title">Netherlands</div>
+                                <div class="container__destination--place-header-title">1 PACKAGES</div>
+                            </div>
+                            <!-- Hover -->
+                            <div class="container__destination--place-hover">
+                                <div class="container__destination--place-hover-box">
+                                    <div class="container__destination--place-hover-title">Packages</div>
+                                    <div class="container__destination--place-hover-sub-title">Amsterdam</div>
+                                    <div class="container__destination--place-hover-btn">VIEW DESTINATION</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__destination--place-item background-img-6">
+                            <div class="container__destination--place-mask"></div>
+                            <div class="container__destination--place-icon">
+                                <img src="./assest/img/content_img_6.png" alt="Icon" style="width:35px">
+                            </div>
+                            <div class="container__destination--place-header">
+                                <div class="container__destination--place-header-sub-title">United States</div>
+                                <div class="container__destination--place-header-title">1 PACKAGES</div>
+                            </div>
+                            <!-- Hover -->
+                            <div class="container__destination--place-hover">
+                                <div class="container__destination--place-hover-box">
+                                    <div class="container__destination--place-hover-title">Packages</div>
+                                    <div class="container__destination--place-hover-sub-title">San Francisco</div>
+                                    <div class="container__destination--place-hover-btn">VIEW DESTINATION</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container__all-packages">
+            <div class="container__all-pacakes-title">
+                <div class="container__all-packages-title-first">Your</div>
+                <div class="container__all-packages-title-second"><div style="position: inherit;z-index: 0;">Next Holiday</div></div>
+            </div>
+            <div class="container__all-packages-btn">VIEW ALL PACKAGES</div>
+        </div>
+        <div class="grid">
+            <div class="container__booking">
+                <div class="container__booking--main">
+                    <div class="container__booking--main-detail">
+                        <div class="container__booking--main-detail-place">NORTH AMERICA</div>
+                        <div class="container__booking--main-detail-title"><div style="position: inherit; z-index: 1;">The Best Beaches</div></div>
+                        <div class="container__booking--main-detail-paragraph">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies mauris ac.</div>
+                        <div class="container__booking--main-detail-paragraph">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies mauris ac.</div>
+                        <div class="container__booking--main-detail-price">
+                            <div class="container__booking--main-detail-price-old"><s>800</s></div>
+                            <div class="container__booking--main-detail-price-current">500$</div>
+                            <div class="container__booking--main-detail-price-infor">/ FOR PERSON</div>
+                        </div>
+                        <div class="container__booking--main-detail-btn">BOOK NOW</div>
+                    </div>
+                    <div class="container__booking--main-wrapper">
+                        <div class="container__booking--main-wrapper-img"></div>
+                        <div class="container__booking--main-wrapper-count-down">
+                            <div class="container__booking--main-wrapper-count-down-date">
+                                <div class="count-down-number">000</div>
+                                <div class="count-down-text">DAYS</div>
+                                <div class="count-down-separate">/</div>
+                            </div>
+                            <div class="container__booking--main-wrapper-count-down-date">
+                                <div class="count-down-number">00</div>
+                                <div class="count-down-text">HOURS</div>
+                                <div class="count-down-separate">/</div>
+                            </div>
+                            <div class="container__booking--main-wrapper-count-down-date">
+                                <div class="count-down-number">00</div>
+                                <div class="count-down-text">MINUTES</div>
+                                <div class="count-down-separate">/</div>
+                            </div>
+                            <div class="container__booking--main-wrapper-count-down-date">
+                                <div class="count-down-number">00</div>
+                                <div class="count-down-text">SECONDS</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__booking--service">
+                    <div class="container__booking--service-wrapper">
+                        <div class="container__booking--service-icon-1"></div>
+                        <div class="container__booking--service-detail">
+                            <div class="container__booking--service-detail-title">World Tour</div>
+                            <div class="container__booking--service-detail-paragraph">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</div>
+                            <a href="" class="container__booking--service-detail-more">View More</a>
+                        </div>
+                    </div>
+                    <div class="container__booking--service-wrapper">
+                        <div class="container__booking--service-icon-2"></div>
+                        <div class="container__booking--service-detail">
+                            <div class="container__booking--service-detail-title">Cruises</div>
+                            <div class="container__booking--service-detail-paragraph">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</div>
+                            <a href="" class="container__booking--service-detail-more">View More</a>
+                        </div>
+                    </div>
+                    <div class="container__booking--service-wrapper">
+                        <div class="container__booking--service-icon-3"></div>
+                        <div class="container__booking--service-detail">
+                            <div class="container__booking--service-detail-title">Best Tours</div>
+                            <div class="container__booking--service-detail-paragraph">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</div>
+                            <a href="" class="container__booking--service-detail-more">View More</a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="container__detail">
+            <div class="container__destination--box-1">
+                <div class="container__destination--box-sub-title">01. LAST MINUTE</div>
+                <div class="container__destination--box-title">Discover Cities</div>
+                <a href="" class="container__destination--box-btn"><div class="" style="color: #f3a46b;">DETAILS</div></a>
+            </div>
+            <div class="container__destination--box-2">
+                <div class="container__destination--box-sub-title">02. PROMOTIONS</div>
+                <div class="container__destination--box-title">Discover Nature</div>
+                <a href="" class="container__destination--box-btn"><div class="" style="color: #1bbc9b;">DETAILS</div></a>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="container__our-packages">
+                <div class="container__our-packages-sub-title">PROMOTIONS</div>
+                <div class="container__our-packages-title"><div style="position: inherit;z-index: 0;">OUR PACKAGES</div></div>
+                <div class="container__our-packages-items">
+                    <div class="container__our-packages-item">
+                        <div class="container__our-packages-img-1"></div>
+                        <div class="container__our-packages-icon">
+                            <img src="./assest/img/content_img_1.png" alt="Icon" class="container__our-packages-icon-img">
+                        </div>
+                        <div class="container__our-packages-infor">
+                            <div class="container__our-packages-infor-header">
+                                <a href="" class="container__our-packages-infor-header-title">Berlin</a>
+                                <a href="" class="container__our-packages-infor-header-place">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Europe
+                                </a>
+                            </div>
+                            <div class="container__our-packages-infor-mid">
+                                <div class="container__our-packages-infor-mid-left">
+                                    <div class="container__our-packages-infor-mid-left-1">Cultural</div>
+                                    <div class="container__our-packages-infor-mid-left-2">
+                                        Relax
+                                        <div class="container__our-packages-infor-mid-left-2-count">+ 1</div>
+                                    </div>
+                                </div>
+                                <div class="container__our-packages-infor-mid-right">700 $</div>
+                            </div>
+                            <div class="container__our-packages-infor-bot">
+                                <div class="container__our-packages-infor-bot-pagaraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</div>
+                                <a href="" class="container__our-packages-infor-bot-btn">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__our-packages-item">
+                        <div class="container__our-packages-img-2"></div>
+                        <div class="container__our-packages-icon" style="background: linear-gradient(to right, #f76570 0%, #f78d65 100%);">
+                            <img src="./assest/img/content_img_3.png" alt="Icon" class="container__our-packages-icon-img">
+                        </div>
+                        <div class="container__our-packages-infor">
+                            <div class="container__our-packages-infor-header">
+                                <a href="" class="container__our-packages-infor-header-title">Hong Kong</a>
+                                <a href="" class="container__our-packages-infor-header-place">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Asia
+                                </a>
+                            </div>
+                            <div class="container__our-packages-infor-mid">
+                                <div class="container__our-packages-infor-mid-left">
+                                    <div class="container__our-packages-infor-mid-left-1">History</div>
+                                    <div class="container__our-packages-infor-mid-left-2">
+                                        Cutural
+                                        <div class="container__our-packages-infor-mid-left-2-count" style="background-color: #f76570;">+ 1</div>
+                                    </div>
+                                </div>
+                                <div class="container__our-packages-infor-mid-right">500 $</div>
+                            </div>
+                            <div class="container__our-packages-infor-bot">
+                                <div class="container__our-packages-infor-bot-pagaraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</div>
+                                <a href="" class="container__our-packages-infor-bot-btn" style="background-color: #f76570;">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__our-packages-item">
+                        <div class="container__our-packages-img-3"></div>
+                        <div class="container__our-packages-icon" style="background: linear-gradient(to right, #ba71da 0%, #da717b 100%);">
+                            <img src="./assest/img/content_img_6.png" alt="Icon" class="container__our-packages-icon-img">
+                        </div>
+                        <div class="container__our-packages-infor">
+                            <div class="container__our-packages-infor-header">
+                                <a href="" class="container__our-packages-infor-header-title">San Francisco</a>
+                                <a href="" class="container__our-packages-infor-header-place">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    United States
+                                </a>
+                            </div>
+                            <div class="container__our-packages-infor-mid">
+                                <div class="container__our-packages-infor-mid-left">
+                                    <div class="container__our-packages-infor-mid-left-1">Sport</div>
+                                    <div class="container__our-packages-infor-mid-left-2">
+                                        Relax
+                                        <div class="container__our-packages-infor-mid-left-2-count" style="background-color: #ba71da;">+ 1</div>
+                                    </div>
+                                </div>
+                                <div class="container__our-packages-infor-mid-right">400 $</div>
+                            </div>
+                            <div class="container__our-packages-infor-bot">
+                                <div class="container__our-packages-infor-bot-pagaraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</div>
+                                <a href="" class="container__our-packages-infor-bot-btn" style="background-color: #ba71da;">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="grid">
+            <div class="footer__header">
+                <div class="footer__header-tiltle">
+                    <div class="footer__header-title-1">KEEP IN TOUCH</div>
+                    <div class="footer__header-title-2">Travel with Us</div>
+                </div>
+                <form action="" class="footer__header-contact">
+                    <input type="email" class="footer__header-contact-box" required></input>
+                    <button type="submit" class="footer__header-contact-btn">send</button>
+                </form>
+            </div>
+            <div class="footer__container">
+                <div class="footer__container-main">
+                    <div class="footer__container-main-social">
+                        <img src="./assest/img/footer__logo.png" alt="Logo" class="footer__container-main-social-logo">
+                        <div class="footer__container-main-social-pagaraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh <u>condimentum</u> venenatis eu ac magnasin. Quisque interdum est mauris, eget ullamcorper.</div>
+                        <div class="footer__container-main-social-icons">
+                            <a href="" class="fab fa-twitter"></a>
+                            <a href="" class="fab fa-youtube"></a>
+                            <a href="" class="fab fa-facebook-square"></a>
+                            <a href="" class="fab fa-telegram-plane"></a>
+                        </div>
+                    </div>
+                    <div class="footer__container-main-wrapper">
+                        <div class="footer__container-main-box">
+                            <div class="footer__container-main-box--header">OUR AGENCY</div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">Services</span>
+                            </div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">Insurancee</span>
+                            </div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">Agency</span>
+                            </div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">Tourism</span>
+                            </div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">Payment</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__container-main-wrapper">
+                        <div class="footer__container-main-box">
+                            <div class="footer__container-main-box--header">PARTNERS</div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">Booking</span>
+                            </div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">RentalCar</span>
+                            </div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">HostelWorld</span>
+                            </div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">Trivago</span>
+                            </div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">TripAdvisor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__container-main-wrapper">
+                        <div class="footer__container-main-box">
+                            <div class="footer__container-main-box--header">LAST MINUTE</div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">London</span>
+                            </div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">California</span>
+                            </div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">Indonesia</span>
+                            </div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">Europe</span>
+                            </div>
+                            <div class="footer__container-main-box--menu">
+                                <img src="./assest/img/footer__main-box-menu-img.png" alt="Icon" class="footer__container-main-box-menu-img">
+                                <span class="footer__container-main-box-menu-text">Oceania</span>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="footer__container-last">
+                    <div class="footer__container-content-last-1">THE BEST WORDPRESS TRAVEL THEME</div>
+                    <div class="footer__container-content-last-2">COPYRIGHT NICDARK THEMES 2018</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Start open sidebar pc
+        const openBtn = document.querySelector('.js-open')
+        const closeBtn = document.querySelector('.js-close')
+        const sidebarContainer = document.querySelector('.js-sidebar-container')
+
+        function showSidebar() {
+            sidebarContainer.classList.add('open')
+        }
+        function closeSidebar() {
+            sidebarContainer.classList.remove('open')
+        }
+        openBtn.addEventListener('click',showSidebar)
+        sidebarContainer.addEventListener('click',closeSidebar)
+        // Start open sidebar mobile
+        const openBtn_mobile = document.querySelector('.js-open-mobile')
+        const closeBtn_mobile = document.querySelector('.js-close-mobile')
+        const sidebarMobile = document.querySelector('.js-sidebar-container-mobile')
+
+        function show_sidebarMobile() {
+            sidebarMobile.classList.add('open')
+        }
+        function close_SidebarMobile() {
+            sidebarMobile.classList.remove('open')
+        }
+        openBtn_mobile.addEventListener('click',show_sidebarMobile)
+        sidebarMobile.addEventListener('click',close_SidebarMobile)
+    </script>
+</body>
+</html>

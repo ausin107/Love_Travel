@@ -1,0 +1,28 @@
+:root{
+    --white-color: #fff;
+    --text-color: #555555;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+/* Reponsive */
+.grid{
+    width: 1200px;
+    margin:auto;
+}
+.app{
+    max-width: 100%;
+}
+.grid__col{ 
+    display: flex;
+}
+body{
+    
+}
